@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.div`
 
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     & h1 {
         font-family: 'Gotham Bold';

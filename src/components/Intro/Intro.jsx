@@ -11,6 +11,7 @@ const Intro = () => {
                 backgroundColor: '#202020',
                 width: '80px',
                 height: '7px',
+                marginBottom:'40px'
             }}>
             </div>
             <p>

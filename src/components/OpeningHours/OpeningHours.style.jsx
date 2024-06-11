@@ -2,7 +2,11 @@ import styled from "styled-components";
 
 export const Main = styled.div`
 
-    border: 1px solid green;
+    font-family: 'Gotham Light';
+    font-size: 14px;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
+    padding: 20px;
 `
 
 export const Clock = styled.div`
@@ -13,12 +17,46 @@ export const Clock = styled.div`
     column-gap: 8px;
 
     & img {
-        height: 20px;
+
+    height: 20px;
     }
 
     & p {
-        font-family: 'Gotham Light';
-        font-size: 14px;
-        color: #202020;
+
+    font-family: 'Gotham Light';
+    font-size: 14px;
+    color: #202020;
     }
+`
+
+export const Times = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    
+    & label {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+`
+
+export const Closed = styled.div`
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+`
+
+
+export const Buttons = styled.div`
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
 `
