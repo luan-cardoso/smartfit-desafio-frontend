@@ -5,11 +5,11 @@ import {
     Closed,
     Main,
     Times, 
-} from "./OpeningHours.style";
+} from "./Schedules.style";
 import ButtonUsage from "../Button/Button";
 
 
-const OpeningHours = () => {
+const Schedules = () => {
     return (
         <Main>
             <Clock>
@@ -42,11 +42,9 @@ const OpeningHours = () => {
             <Buttons>
                 <ButtonUsage name='encontrar unidade' variant='contained' />
                 <ButtonUsage name='limpar' variant='contained' colorButton='secondary' />
-            </Buttons>
-            
-                
+            </Buttons> 
         </Main>
     )
 }
 
-export default OpeningHours;
+export default Schedules;

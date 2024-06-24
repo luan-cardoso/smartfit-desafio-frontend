@@ -7,6 +7,7 @@ export const Main = styled.div`
     border: 2px solid #cacaca;
     border-radius: 5px;
     padding: 20px;
+    margin-bottom: 40px;
 `
 
 export const Clock = styled.div`
